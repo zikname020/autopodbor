@@ -1,0 +1,78 @@
+/* --- СТИЛИ ДЛЯ НОВОЙ ШАПКИ --- */
+
+/* Верхняя тонкая панель */
+.top-bar {
+    background-color: #0A1521; /* Чуть более темный оттенок для контраста */
+    font-size: 0.85rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.top-bar a {
+    color: #a0aab5;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.top-bar a:hover {
+    color: #FF6B00; /* Оранжевый при наведении */
+}
+.top-bar i {
+    color: #FF6B00;
+}
+
+/* Основная панель навигации */
+.main-navbar {
+    background-color: #0E1B2C !important; /* Твой основной темно-синий */
+    padding: 1rem 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Логотип */
+.navbar-brand {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+.navbar-brand i {
+    color: #FF6B00;
+}
+
+/* Ссылки в меню */
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: #e0e0e0 !important;
+    padding: 0.5rem 1.2rem !important;
+    transition: color 0.2s;
+}
+.navbar-nav .nav-link:hover, 
+.navbar-nav .nav-item.active .nav-link {
+    color: #FF6B00 !important;
+}
+
+/* Кнопка "Заказать звонок" */
+.btn-callback {
+    background-color: #FF6B00;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    padding: 0.6rem 1.5rem;
+    transition: background-color 0.2s, transform 0.1s;
+}
+.btn-callback:hover {
+    background-color: #E65C00;
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+/* Выпадающее меню профиля */
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    margin-top: 15px;
+}
+.dropdown-item {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.5rem;
+}
+.dropdown-item i {
+    width: 20px;
+    text-align: center;
+}
